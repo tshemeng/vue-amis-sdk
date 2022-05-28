@@ -1,0 +1,80 @@
+{
+  "name": "vue-amis-sdk",
+  "version": "1.9.0",
+  "private": false,
+  "main": "sdk/vue-amis-sdk.umd.min.js",
+  "browser": "sdk/vue-amis-sdk.umd.min.js",
+  "module": "sdk/vue-amis-sdk.umd.min.js",
+  "unpkg": "sdk/vue-amis-sdk.umd.min.js",
+  "jsdelivr": "sdk/vue-amis-sdk.umd.min.js",
+  "files": [
+    "docs/vue-amis-sdk.umd.min.js",
+    "docs/demo.html",
+    "docs/vue-amis-sdk.css"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-amis-sdk --dest sdk packages/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "amis": "^1.9.0",
+    "amis-editor": "^4.1.0-beta.20",
+    "axios": "^0.24.0",
+    "compression-webpack-plugin": "5.0.1",
+    "core-js": "^3.6.5",
+    "css-loader": "^6.6.0",
+    "lib": "^4.3.3",
+    "postcss-custom-properties": "^12.1.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "style-loader": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "^2.6.11",
+    "vuera": "^0.2.7",
+    "webpack-bundle-analyzer": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.3",
+    "@vue/cli-service": "^5.0.3",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "4.46.0",
+    "webpackbar": "5.0.2"
+  },
+  "author": {
+    "name": "h7ml",
+    "mail": "h7ml@qq.com",
+    "github": "https://github.com/h7ml/vue-amis-sdk"
+  },
+  "keywords": [
+    "amis",
+    "vue",
+    "vue-amis",
+    "amis-vue",
+    "vue-amis-sdk",
+    "amis-admin-vue",
+    "renderer",
+    "json",
+    "schema"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h7ml/vue-amis-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h7ml/vue-amis-sdk/issues"
+  }
+}
