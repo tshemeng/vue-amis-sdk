@@ -1,5 +1,9 @@
 # vue-amis-sdk
 
+## about
+- This project is based on [vuera](https://github.com/akxcv/vuera) and mainly focuses on the encapsulation of [amis-editor](https://www.npmjs.com/package/amis-editor)
+- You can edit at [this](https://vue-amis-sdk.vercel.app/). The [proxy](https://github.com/h7ml/vue-amis-sdk/blob/master/vercel.json) mode is enabled. You can copy the JSON of [amis](https://aisuda.bce.baidu.com/amis/examples/index). It supports direct rendering
+
 <div align="center">
 
 [![version](https://img.shields.io/npm/v/vue-amis-sdk/latest)](https://github.com/h7ml/vue-amis-sdk/blob/master/package.json#L36)
@@ -38,7 +42,7 @@ yarn add vue-amis-sdk --save
 
 ## Quick Start
 
-### [Serve.vue](https://github.com/h7ml/vue-amis-sdk/blob/master/dev/serve.vue)
+### [App.vue](https://github.com/h7ml/vue-amis-sdk/blob/master/examples/App.vue#L1)
 
 ```javascript
 <template>
@@ -63,7 +67,6 @@ export default {
         amis_page_id: 15,
       },
       baseURL: 'https://h7ml.cn',
-
       schema: {},
     }
   },
@@ -90,7 +93,6 @@ export default {
 ```
 
 
-### Online examples
-
-- [amis-admin-vue Online examples](amis-admin-vue.vercel.app/index)
-- [amis-admin-vue repo](https://github.com/h7ml/amis-admin-vue/tree/master)
+### repo
+- [vue-amis-sdk editor](https://vue-amis-sdk.vercel.app/)
+- [vue-amis-sdk repo](https://github.com/h7ml/vue-amis-sdk)

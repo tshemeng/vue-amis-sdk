@@ -1,6 +1,6 @@
 {
   "name": "vue-amis-sdk",
-  "version": "1.9.0-beta-29",
+  "version": "1.9.0-beta-30",
   "private": false,
   "main": "sdk/vue-amis-sdk.umd.min.js",
   "browser": "sdk/vue-amis-sdk.umd.min.js",
@@ -13,7 +13,8 @@
     "sdk/vue-amis-sdk.umd.js",
     "sdk/vue-amis-sdk.common.js",
     "sdk/demo.html",
-    "sdk/vue-amis-sdk.css"
+    "sdk/vue-amis-sdk.css",
+    "README.md"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -31,6 +32,7 @@
     "compression-webpack-plugin": "5.0.1",
     "core-js": "^3.6.5",
     "css-loader": "^6.6.0",
+    "http-proxy-middleware": "^2.0.6",
     "lib": "^4.3.3",
     "postcss-custom-properties": "^12.1.4",
     "react": "^16.14.0",
