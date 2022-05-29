@@ -1,6 +1,6 @@
 {
   "name": "vue-amis-sdk",
-  "version": "1.9.0",
+  "version": "1.9.0-beta-29",
   "private": false,
   "main": "sdk/vue-amis-sdk.umd.min.js",
   "browser": "sdk/vue-amis-sdk.umd.min.js",
@@ -8,9 +8,12 @@
   "unpkg": "sdk/vue-amis-sdk.umd.min.js",
   "jsdelivr": "sdk/vue-amis-sdk.umd.min.js",
   "files": [
-    "docs/vue-amis-sdk.umd.min.js",
-    "docs/demo.html",
-    "docs/vue-amis-sdk.css"
+    "_examples/*",
+    "packages/*",
+    "sdk/vue-amis-sdk.umd.js",
+    "sdk/vue-amis-sdk.common.js",
+    "sdk/demo.html",
+    "sdk/vue-amis-sdk.css"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -36,7 +39,8 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
     "vuera": "^0.2.7",
-    "webpack-bundle-analyzer": "^4.5.0"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "css-loader": "^6.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.3",
