@@ -41,8 +41,7 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
     "vuera": "^0.2.7",
-    "webpack-bundle-analyzer": "^4.5.0",
-    "css-loader": "^6.6.0"
+    "webpack-bundle-analyzer": "^4.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.3",

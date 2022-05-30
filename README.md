@@ -6,21 +6,21 @@
 
 <div align="center">
 
-[![version](https://img.shields.io/npm/v/vue-amis-sdk/latest)](https://github.com/h7ml/vue-amis-sdk/blob/master/package.json#L36)
 [![language](https://img.shields.io/github/languages/top/h7ml/vue-amis-sdk)](https://github.com/h7ml/vue-amis-sdk/search?l=css)
 [![last](https://img.shields.io/github/last-commit/h7ml/vue-amis-sdk.svg)](https://github.com/h7ml/vue-amis-sdk/commits)
 [![stars](https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&logo=Vercel)](https://amis.vercel.app/)
+[![amis](https://img.shields.io/badge/amis-1.9.0-red.svg)](https://www.npmjs.com/package/amis/v/1.9.0)
+[![amis-editor](https://img.shields.io/badge/amisEditor-4.1.0.20-red.svg)](https://www.npmjs.com/package/amis-editor/v/4.1.0-beta.20)
 
+<img alt="npm" src="https://img.shields.io/npm/v/amis-editor">
 <img src="https://img.shields.io/github/commit-activity/m/h7ml/vue-amis-sdk" alt="ommit-activity">
-<img src="https://badgen.net/badge/package/%40dgiot%2Fdgiot-mqtt-dashboard/blue"
+<img src="https://badgen.net/badge/package/vue-amis-sdk/blue"
 alt="package" maxretrytimes="3" class="m-1 transition-all duration-1000">
 <img src="https://badgen.net/npm/v/vue-amis-sdk" alt="Npm Version"
 maxretrytimes="3" class="m-1 transition-all duration-1000">
 <img src="https://badgen.net/npm/node/vue-amis-sdk" alt="Node Version"
 maxretrytimes="3" class="m-1 transition-all duration-1000">
 <br>
-<img src="https://badgen.net/jsdelivr/hits/npm/vue-amis-sdk"
-alt="Jsdeliver Month Downloads" maxretrytimes="3" class="m-1 transition-all duration-1000">
 <img src="https://badgen.net/packagephobia/install/vue-amis-sdk"
 alt="Install Size" maxretrytimes="3" class="m-1 transition-all duration-1000">
 <img src="https://badgen.net/npm/types/vue-amis-sdk" alt="Type Support"
