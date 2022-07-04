@@ -13,9 +13,9 @@
 </template>
 <script>
 import "amis-ui/lib/themes/cxd.css";
-import "amis-ui/lib/themes/ang.css";
 import "amis-editor/dist/style.css";
-// import "amis-ui/lib/helper.css";
+// import "../node_modules/amis-ui/lib/helper.css";
+// import "../node_modules/amis-ui/lib/themes/antd.css";
 export default {
   name: 'App',
   data() {

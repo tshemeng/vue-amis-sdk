@@ -1,6 +1,6 @@
 {
   "name": "vue-amis-sdk",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.2",
   "private": false,
   "main": "sdk/vue-amis-sdk.umd.min.js",
   "browser": "sdk/vue-amis-sdk.umd.min.js",
@@ -36,6 +36,7 @@
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.7",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "amis": "2.0.0",
     "amis-editor": "4.2.0-beta.3",
     "amis-formula": "^2.0.0",
@@ -80,8 +81,7 @@
     "sass-loader": "^8.0.2",
     "vue-eslint-parser": "8.0.1",
     "vue-template-compiler": "^2.6.11",
-    "webpack": "4.46.0",
-    "webpackbar": "5.0.2"
+    "webpack": "4.46.0"
   },
   "author": {
     "name": "h7ml",

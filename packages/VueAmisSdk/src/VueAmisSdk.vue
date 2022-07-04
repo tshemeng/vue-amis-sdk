@@ -16,11 +16,9 @@
   </div>
 </template>
 <script>
-// import "amis/lib/themes/cxd.css";
-// import "amis/lib/themes/ang.css";
-// import "amis/lib/helper.css";
-// import "amis/sdk/sdk.css";
-// import "amis-editor/dist/style.css";
+// fortawesome
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all'
 
 import { Editor } from "amis-editor";
 import { ReactInVue } from "vuera";
@@ -45,7 +43,7 @@ export default {
     },
     theme: {
       type: String,
-      default: "ang",
+      default: "cxd",
     },
     className: {
       type: String,

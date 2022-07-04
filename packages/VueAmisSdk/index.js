@@ -4,3 +4,4 @@ VueAmisSdk.install = function (Vue) {
 };
 
 export default VueAmisSdk;
+window.VueAmisSdk = VueAmisSdk;
