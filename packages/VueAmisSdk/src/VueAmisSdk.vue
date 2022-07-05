@@ -1,5 +1,6 @@
 <template>
   <div>
+    <amis-shortcut-key />
     <amis-editor
       id="editorName"
       :theme="theme"
@@ -17,15 +18,16 @@
 </template>
 <script>
 // fortawesome
+import './style.scss';
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all'
-
-import { Editor } from "amis-editor";
-import { ReactInVue } from "vuera";
+import {Editor, ShortcutKey} from "amis-editor";
+import {ReactInVue} from "vuera";
 export default {
   name: "VueAmisSdk",
   components: {
     AmisEditor: ReactInVue(Editor),
+    AmisShortcutKey: ReactInVue(ShortcutKey),
     // Editor
   },
   props: {
@@ -51,11 +53,12 @@ export default {
     },
     value: {
       type: Object,
-      default: () => {},
+      default: () => {
+      },
     },
     plugins: {
-      type: Object,
-      default: () => {},
+      type: Array,
+      default: () => [],
     },
   },
   data() {
@@ -88,3 +91,12 @@ export default {
   },
 };
 </script>
+<style lang="scss">
+.editor-right-panel .editorPanel-tabs .editorPanel-tabs-header > li > a .editor-tab-icon > svg {
+  font-size: 16px !important;
+  width: 16px;
+  height: auto;
+  margin-bottom: 0 !important;
+  color: #151b26;
+}
+</style>
