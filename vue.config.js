@@ -10,8 +10,6 @@ function resolve(dir) {
   return path.join(__dirname, "..", dir);
 }
 
-const MonacoWebpackPlugin = require("monaco-editor-webpack-plugin");
-
 module.exports = {
   devServer: {
     // development server port 8000
@@ -37,7 +35,7 @@ module.exports = {
     },
   },
   configureWebpack: {
-    plugins: [new MonacoWebpackPlugin()],
+    plugins: [],
   },
   chainWebpack: (config) => {
     if (process.env.BUILD_TARGET === "lib") {
@@ -83,5 +81,12 @@ module.exports = {
       .tap((options) => {
         return options;
       });
+  },
+  css: {
+    loaderOptions: {
+      sass: {
+        implementation: require("sass"),
+      },
+    },
   },
 };

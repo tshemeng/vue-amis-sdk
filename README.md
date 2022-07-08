@@ -38,7 +38,7 @@ alt="Vulnerablities" maxretrytimes="3" class="m-1 transition-all duration-1000">
 ## Installation
 
 ```bash
-yarn add vue-amis-sdk --save
+yarn add vue-amis-sdk @fortawesome/fontawesome-free --save
 ```
 
 ## Quick Start

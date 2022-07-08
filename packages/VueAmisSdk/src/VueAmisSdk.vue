@@ -17,10 +17,6 @@
   </div>
 </template>
 <script>
-// fortawesome
-import "./style.scss";
-import "@fortawesome/fontawesome-free/css/all.css";
-import "@fortawesome/fontawesome-free/js/all";
 import { Editor, ShortcutKey } from "amis-editor";
 import { ReactInVue } from "vuera";
 
@@ -91,7 +87,8 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="scss">
+@import "./style.scss";
 /* 解决 amis-editor icon 图标过大 */
 .editor-right-panel
   .editorPanel-tabs
