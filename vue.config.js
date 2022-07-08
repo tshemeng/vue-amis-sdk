@@ -3,15 +3,14 @@ const CompressionPlugin = require("compression-webpack-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const Webpack = require("webpack");
 const pkg = require("./package.json");
-const webpackBanner =
-  `project: vue-amis-sdk@${pkg.version} \n github https://github.com/h7ml/vue-amis-sdk \n author: h7ml(h7ml@qq.com) \n Time: `;
+const webpackBanner = `project: vue-amis-sdk@${pkg.version} \n github https://github.com/h7ml/vue-amis-sdk \n author: h7ml(h7ml@qq.com) \n Time: `;
 const dateTime = new Date();
 
 function resolve(dir) {
   return path.join(__dirname, "..", dir);
 }
 
-const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin')
+const MonacoWebpackPlugin = require("monaco-editor-webpack-plugin");
 
 module.exports = {
   devServer: {
@@ -19,15 +18,15 @@ module.exports = {
     port: 3000,
     // If you want to turn on the proxy, please remove the mockjs /src/main.jsL11
     proxy: {
-      '/amis': {
-        target: 'https://aisuda.bce.baidu.com/',
-        changeOrigin: true
+      "/amis": {
+        target: "https://aisuda.bce.baidu.com/",
+        changeOrigin: true,
       },
-      '/api': {
-        target: 'https://preview.pro.antdv.com/',
-        changeOrigin: true
-      }
-    }
+      "/api": {
+        target: "https://preview.pro.antdv.com/",
+        changeOrigin: true,
+      },
+    },
   },
   productionSourceMap: false,
   pages: {
@@ -38,9 +37,7 @@ module.exports = {
     },
   },
   configureWebpack: {
-    plugins: [
-      new MonacoWebpackPlugin(),
-    ]
+    plugins: [new MonacoWebpackPlugin()],
   },
   chainWebpack: (config) => {
     if (process.env.BUILD_TARGET === "lib") {
@@ -53,8 +50,8 @@ module.exports = {
         })
       );
       config
-        .plugin('banner')
-        .use(Webpack.BannerPlugin, [`${webpackBanner}${dateTime}`])
+        .plugin("banner")
+        .use(Webpack.BannerPlugin, [`${webpackBanner}${dateTime}`]);
       config.plugins.push(
         new UglifyJsPlugin({
           uglifyOptions: {

@@ -1,16 +1,16 @@
 <template>
-  <div id='app'>
+  <div id="app">
     <div class="header"><i class="pc-preview" title="PC模式"></i></div>
     <vue-amis-sdk
       class="editor-widget"
-      id='editorName'
-      theme='cxd'
-      className='is-fixed'
-      :preview='isPreview'
-      :isMobile='isMobile'
-      @onChange='onChange'
-      :value='schema'
-      :showCustomRenderersPanel='showCustomRenderersPanel'
+      id="editorName"
+      theme="cxd"
+      className="is-fixed"
+      :preview="isPreview"
+      :isMobile="isMobile"
+      @onChange="onChange"
+      :value="schema"
+      :showCustomRenderersPanel="showCustomRenderersPanel"
     />
   </div>
 </template>
@@ -20,73 +20,73 @@ import "amis-editor/dist/style.css";
 // import "../node_modules/amis-ui/lib/helper.css";
 // import "../node_modules/amis-ui/lib/themes/antd.css";
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
       isPreview: true,
       isMobile: false,
       showCustomRenderersPanel: true,
       schema: {
-        "type": "page",
-        "body": [
+        type: "page",
+        body: [
           {
-            "type": "input-text",
-            "label": "文本",
-            "name": "text",
-            "id": "u:41304a249687"
+            type: "input-text",
+            label: "文本",
+            name: "text",
+            id: "u:41304a249687",
           },
           {
-            "type": "nested-select",
-            "label": "嵌套下拉框",
-            "name": "nestedSelect",
-            "options": [
+            type: "nested-select",
+            label: "嵌套下拉框",
+            name: "nestedSelect",
+            options: [
               {
-                "label": "选项A",
-                "value": "A"
+                label: "选项A",
+                value: "A",
               },
               {
-                "label": "选项B",
-                "value": "B",
-                "children": [
+                label: "选项B",
+                value: "B",
+                children: [
                   {
-                    "label": "选项C",
-                    "value": "C"
+                    label: "选项C",
+                    value: "C",
                   },
                   {
-                    "label": "选项D",
-                    "value": "D"
-                  }
-                ]
-              }
+                    label: "选项D",
+                    value: "D",
+                  },
+                ],
+              },
             ],
-            "id": "u:b25bd22690e7"
+            id: "u:b25bd22690e7",
           },
           {
-            "type": "select",
-            "label": "选项",
-            "name": "select",
-            "options": [
+            type: "select",
+            label: "选项",
+            name: "select",
+            options: [
               {
-                "label": "选项A",
-                "value": "A"
+                label: "选项A",
+                value: "A",
               },
               {
-                "label": "选项B",
-                "value": "B"
-              }
+                label: "选项B",
+                value: "B",
+              },
             ],
-            "id": "u:b5bc1c1228bb"
-          }
-        ]
-      }
-    }
+            id: "u:b5bc1c1228bb",
+          },
+        ],
+      },
+    };
   },
   methods: {
     onChange(e) {
-      console.log(e)
-    }
-  }
-}
+      console.log(e);
+    },
+  },
+};
 </script>
 <style scoped>
 #app {
@@ -105,7 +105,7 @@ export default {
   align-items: center;
   background-color: #f5f5f5;
 }
-.editor-widget{
+.editor-widget {
   height: calc(100% - 50px);
 }
 </style>

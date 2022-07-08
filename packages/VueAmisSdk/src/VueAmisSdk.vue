@@ -18,11 +18,12 @@
 </template>
 <script>
 // fortawesome
-import './style.scss';
-import '@fortawesome/fontawesome-free/css/all.css';
-import '@fortawesome/fontawesome-free/js/all'
-import {Editor, ShortcutKey} from "amis-editor";
-import {ReactInVue} from "vuera";
+import "./style.scss";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "@fortawesome/fontawesome-free/js/all";
+import { Editor, ShortcutKey } from "amis-editor";
+import { ReactInVue } from "vuera";
+
 export default {
   name: "VueAmisSdk",
   components: {
@@ -53,8 +54,7 @@ export default {
     },
     value: {
       type: Object,
-      default: () => {
-      },
+      default: () => {},
     },
     plugins: {
       type: Array,
@@ -81,22 +81,37 @@ export default {
       this.$emit("change", e);
     },
     onSave(e) {
-      console.log(e)
+      console.log(e);
       this.$emit("onSave", e);
     },
     onPreview(e) {
-      console.log(e)
+      console.log(e);
       this.$emit("onPreview", e);
     },
   },
 };
 </script>
-<style lang="scss">
-.editor-right-panel .editorPanel-tabs .editorPanel-tabs-header > li > a .editor-tab-icon > svg {
+<style>
+/* 解决 amis-editor icon 图标过大 */
+.editor-right-panel
+  .editorPanel-tabs
+  .editorPanel-tabs-header
+  > li
+  > a
+  .editor-tab-icon
+  > svg {
   font-size: 16px !important;
   width: 16px;
   height: auto;
   margin-bottom: 0 !important;
   color: #151b26;
+}
+
+/*
+https://github.com/baidu/amis/pull/4813/files
+解决 select 含有 Placeholder
+*/
+.hidden {
+  display: none;
 }
 </style>
