@@ -103,12 +103,4 @@ export default {
   margin-bottom: 0 !important;
   color: #151b26;
 }
-
-/*
-https://github.com/baidu/amis/pull/4813/files
-解决 select 含有 Placeholder
-*/
-.hidden {
-  display: none;
-}
 </style>

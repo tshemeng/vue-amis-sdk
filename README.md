@@ -89,6 +89,8 @@ export default {
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/1.10.0/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/1.10.0)             | [![amis](https://img.shields.io/badge/amis-1.10.0-green.svg)](https://www.npmjs.com/package/amis/v/1.10.0) | [![amis-editor](https://badgen.net/badge/amis-editor/4.1.0-beta.28/blue)](https://www.npmjs.com/package/amis-editor/v/4.1.0-beta.28) |
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.0.0-beta.5/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.0.0-beta.5) | [![amis](https://img.shields.io/badge/amis-2.0.0-green.svg)](https://www.npmjs.com/package/amis/v/2.0.0)   | [![amis-editor](https://badgen.net/badge/amis-editor/4.2.0-beta.3/blue)](https://www.npmjs.com/package/amis-editor/v/4.2.0-beta.3)   |
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.0.1-beta.1/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.0.1-beta.1) | [![amis](https://img.shields.io/badge/amis-2.0.1-green.svg)](https://www.npmjs.com/package/amis/v/2.0.1)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.1.8/blue)](https://www.npmjs.com/package/amis-editor/v/5.1.8)                 |
+| [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.0.2-beta.1/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.0.2-beta.1) | [![amis](https://img.shields.io/badge/amis-2.0.2-green.svg)](https://www.npmjs.com/package/amis/v/2.0.2)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.1.8/blue)](https://www.npmjs.com/package/amis-editor/v/5.1.8)                 |
+
 ### repo
 
 - [vue-amis-sdk editor](https://vue-amis-sdk.vercel.app/)
