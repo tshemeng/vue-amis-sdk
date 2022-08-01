@@ -28,54 +28,15 @@ export default {
       showCustomRenderersPanel: true,
       schema: {
         type: "page",
+        id: "u:d3b02ff7a8d0",
+        aside: [],
         body: [
           {
-            type: "input-text",
-            label: "文本",
-            name: "text",
-            id: "u:41304a249687",
-          },
-          {
-            type: "nested-select",
-            label: "嵌套下拉框",
-            name: "nestedSelect",
-            options: [
-              {
-                label: "选项A",
-                value: "A",
-              },
-              {
-                label: "选项B",
-                value: "B",
-                children: [
-                  {
-                    label: "选项C",
-                    value: "C",
-                  },
-                  {
-                    label: "选项D",
-                    value: "D",
-                  },
-                ],
-              },
-            ],
-            id: "u:b25bd22690e7",
-          },
-          {
-            type: "select",
-            label: "选项",
-            name: "select",
-            options: [
-              {
-                label: "选项A",
-                value: "A",
-              },
-              {
-                label: "选项B",
-                value: "B",
-              },
-            ],
-            id: "u:b5bc1c1228bb",
+            type: "tpl",
+            tpl: "vue-amis-sdk@2.1.0",
+            inline: true,
+            wrapperComponent: "h1",
+            id: "u:0f5cb1ec6c87",
           },
         ],
       },

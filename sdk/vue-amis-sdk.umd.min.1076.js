@@ -1,1 +1,0 @@
-"use strict";(("undefined"!==typeof self?self:this)["webpackChunkvue_amis_sdk"]=("undefined"!==typeof self?self:this)["webpackChunkvue_amis_sdk"]||[]).push([[1076],{61076:function(e,i,t){Object.defineProperty(i,"__esModule",{value:!0});var s=t(68536);i.city=s.city,i["default"]=s["default"],i.district=s.district,i.province=s.province}}]);

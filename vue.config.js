@@ -5,7 +5,7 @@ const Webpack = require("webpack");
 const pkg = require("./package.json");
 const webpackBanner = `project: vue-amis-sdk@${pkg.version} \n github https://github.com/h7ml/vue-amis-sdk \n author: h7ml(h7ml@qq.com) \n Time: `;
 const dateTime = new Date();
-
+process.env.VUE_APP_VERSION = pkg.version
 function resolve(dir) {
   return path.join(__dirname, "..", dir);
 }
