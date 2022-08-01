@@ -25,7 +25,8 @@
     "lint:fix": "vue-cli-service lint --fix",
     "lib": "vue-cli-service build --target lib --name vue-amis-sdk --dest sdk packages/index.js",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@babel/core": "^7.17.7",
@@ -39,6 +40,7 @@
     "amis-ui": "^2.1.0",
     "axios": "^0.27.2",
     "compression-webpack-plugin": "6.1.1",
+    "conventional-changelog-cli": "^2.2.2",
     "core-js": "^3.6.5",
     "css-loader": "^6.6.0",
     "http-proxy-middleware": "^2.0.6",

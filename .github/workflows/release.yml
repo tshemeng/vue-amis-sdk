@@ -19,6 +19,13 @@ jobs:
           node-version: 16.x
           registry-url: "https://registry.npmjs.org"
 
+      - uses: release-drafter/release-drafter@master
+        with:
+          version: ${{ steps.version.outputs.version }}
+          publish: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+
       - name: Setup
         run: npm i -g @antfu/ni pnpm
 
@@ -32,3 +39,13 @@ jobs:
         run: pnpm -r publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+      - name: version
+        id: version
+        run: |
+          tag=${GITHUB_REF/refs\/tags\//}
+          version=${tag#v}
+          major=${version%%.*}
+          echo "::set-output name=tag::${tag}"
+          echo "::set-output name=version::${version}"
+          echo "::set-output name=major::${major}"
