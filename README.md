@@ -91,6 +91,7 @@ export default {
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.0.1-beta.1/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.0.1-beta.1) | [![amis](https://img.shields.io/badge/amis-2.0.1-green.svg)](https://www.npmjs.com/package/amis/v/2.0.1)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.1.8/blue)](https://www.npmjs.com/package/amis-editor/v/5.1.8)                 |
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.0.2-beta.1/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.0.2-beta.1) | [![amis](https://img.shields.io/badge/amis-2.0.2-green.svg)](https://www.npmjs.com/package/amis/v/2.0.2)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.1.8/blue)](https://www.npmjs.com/package/amis-editor/v/5.1.8)                 |
 | [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.1.0/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.1.0)               | [![amis](https://img.shields.io/badge/amis-2.1.0-green.svg)](https://www.npmjs.com/package/amis/v/2.1.0)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.2.0/blue)](https://www.npmjs.com/package/amis-editor/v/5.2.0)                 |
+| [![amis-editor](https://badgen.net/badge/vue-amis-sdk/2.2.0/blue)](https://www.npmjs.com/package/vue-amis-sdk/v/2.2.0)               | [![amis](https://img.shields.io/badge/amis-2.2.0-green.svg)](https://www.npmjs.com/package/amis/v/2.2.0)   | [![amis-editor](https://badgen.net/badge/amis-editor/5.2.0/blue)](https://www.npmjs.com/package/amis-editor/v/5.2.0)                 |
 
 ### repo
 
